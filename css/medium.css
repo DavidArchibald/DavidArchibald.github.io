@@ -1,0 +1,11 @@
+/* The query breakpoint was increased because my page has additional padding and it began to clip. */
+/* If this is a requirement to be 32.5em, the fix is to remove the padding */
+@media screen and (min-width: 45em) {
+	#title {
+		display: inline-block;
+	}
+
+	#face {
+		float: right;
+	}
+}
