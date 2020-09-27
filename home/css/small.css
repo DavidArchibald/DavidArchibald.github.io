@@ -1,0 +1,13 @@
+#face-container {
+	padding: 15px;
+}
+
+#face {
+	width: 200px;
+	height: 200px;
+}
+
+#container {
+	margin: 0 auto;
+	max-width: var(--width);
+}
