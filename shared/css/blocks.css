@@ -1,0 +1,27 @@
+:root {
+	--block-color: #f1c40f;
+	--width: 750px;
+}
+
+#container {
+	padding: 0 3%;
+	margin-top: 25px;
+}
+
+.block {
+	max-width: var(--width);
+	border: 1px solid var(--block-color);
+	background-color: var(--block-color);
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#title {
+	align-self: center;
+	font-size: 2rem;
+}
+
+.heading {
+	font-family: 'Roboto', sans-serif;
+}
