@@ -1,0 +1,36 @@
+#body {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 10px;
+}
+
+.image {
+	width: 100%;
+	align-self: center;
+}
+
+.description {
+	font-family: 'Peddana', serif;
+	font-size: 18px;
+}
+
+.site-name {
+	text-align: center;
+}
+
+.has-subtitle {
+	margin-bottom: 0px;
+}
+
+.subtitle {
+	font-style: italic;
+}
+
+.has-subtitle + .subtitle {
+	margin-top: 0px;
+}
+
+.disclaimer {
+	border-left: var(--block-color) solid 5px;
+	background-color: lightgray;
+}

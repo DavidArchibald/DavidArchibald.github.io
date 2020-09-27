@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<title>Design Principles</title>
+		<meta name="description" content="WDD 230 design principles" />
+		<meta name="author" content="David Archibald" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../shared/css/blocks.css?v=1.0" />
+		<link rel="stylesheet" href="css/small.css?v=1.0" />
+		<link rel="stylesheet" href="css/medium.css?v=1.0" />
+		<link rel="stylesheet" href="css/large.css?v=1.0" />
+		<link rel="stylesheet" href="../shared/css/normalize.css?v=1.0" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Peddana&display=swap" rel="stylesheet" />
+	</head>
+
+	<body>
+		<script src="js/scripts.js"></script>
+
+		<div id="container">
+			<header class="block">
+				<h1 id="title" class="heading">Design Principles Document</h1>
+			</header>
+
+			<div id="body">
+				<section class="column">
+					<div class="line">
+						<h2 class="site-name has-subtitle">Google, Whitespace, and Siplicitly</h2>
+						<p class="subtitle">White Space and Clean Design</p>
+					</div>
+					<img src="images/google_com.jpeg" alt="The Google website page as of 09/26/2020." class="image" />
+					<ul class="site-data">
+						<li><b>Name:</b> Google</li>
+						<li><b>Organization Name:</b> Google, LLC</li>
+						<li><b>Link</b> <a href="http://google.com/">http://google.com/</a></li>
+					</ul>
+					<div class="description">
+						<p>
+							Google is a vastly used search engine site that's intuitive to use but backed with a huge
+							amount of power searching through hundreds of billions of webpages to return you millions of
+							results in milliseconds. Used so much that its name "Google" has become synonymous with
+							searching the web at all in terms like "Google it" or "Googling".
+						</p>
+						<p>
+							Google's site could have searching done strictly through a list of terms like "Apple",
+							"Pie", "Minnesota", "Horse", gotten every result for each and then interesected them and
+							made a UI to boot. Building on top of that would've been features like negative searches,
+							where a word wouldn't be included etc. All of these things could've made a robustly feature
+							filled search engine filled up in buttons and options. Instead, Google made a natural
+							language processor to try to contextually understand what a user wants by a search.
+						</p>
+						<p>
+							Along with this, Google keeps its most necessary additional tools behind hamburger menus
+							increasing the clarity of the main interactive element; the search input. From there all it
+							takes is simple text, a question you might ask a person written how you would with a ton of
+							hidden complexity from "filetype:.pdf" to quotes themselves for exact matching.
+						</p>
+						<p>
+							This is a phenomenal example of clean design that has no doubt added a huge amount of
+							complexity to Google's searching algorithm and design, however now the webpage is much
+							simpler than some search engines designed for websites and has made itself the standard.
+						</p>
+					</div>
+				</section>
+				<section class="column">
+					<div class="line">
+						<h2 class="site-name has-subtitle">FoundryVTT and Repetition and Repetition</h2>
+						<p class="subtitle">PARC: Repetition</p>
+					</div>
+					<ul class="site-data">
+						<li><b>Name:</b> Foundry Virtual Table Top</li>
+						<li><b>Organization Name:</b> Foundry Gaming, LLC</li>
+						<li><b>Link</b> <a href="https://foundryvtt.com/">https://foundryvtt.com/</a></li>
+					</ul>
+					<img
+						src="images/foundryvtt_com.jpeg"
+						alt="An example FoundryVTT dialog from 09/26/2020."
+						class="image"
+					/>
+					<div class="description">
+						<p>
+							FoundryVTT at solely its initial appearance is like many other virtual table tops or VTT
+							short. However, I include it in this list because it's one of the most well community
+							designed software options out there with a strong API to allow for feature addition to be
+							able to create things the core development team simply cannot prioritize.
+						</p>
+						<p>
+							Being so focused on developer freedom can be a detriment though. Using arbitrary HTML, CSS,
+							and JS without any shared designs, icons, etc. the UI would clash highly with itself. This
+							is really where Foundry's developer focused design shines because instead of solving this
+							with developer sandboxed design, it solves the freedom by driving good community standards
+							first then actually implementing them into the core software as a first class option for all
+							developers so they don't replicat each other.
+						</p>
+						<p>
+							The end result is that despite being highly modded through
+							<a href="https://foundryvtt.com/packages/">game systems and modules</a> to customize the
+							game experience, the shared api and free assets allows each programmer to create their own
+							unique experience through their module while still replicating the look and design. It'd be
+							impossible to show off the module design through a singular screenshot if it were not for
+							the universality of them. Because the dialog is so used throughout every module along with
+							similarly styled popups, sidebars, and more, the modules all feel cohesive.
+						</p>
+						<p>
+							With the built in support of module settings, module selection, world creation, and more
+							each module feels natural and even if the site isn't the furthest along graceful design
+							itself on mobile devices, the UI is impressively uniform especially for being a product with
+							such active developers.
+						</p>
+					</div>
+				</section>
+				<section class="column">
+					<div class="line">
+						<h2 class="site-name has-subtitle">Golang Packages and Navigation</h2>
+						<p class="subtitle">Hick's law</p>
+					</div>
+					<ul class="site-data">
+						<li><b>Name:</b> Golang</li>
+						<li><b>Organization Name:</b> Google, LLC</li>
+						<li><b>Link</b> <a href="https://golang.org/">https://golang.org/</a></li>
+					</ul>
+					<img
+						src="images/golang_org.jpeg"
+						alt="The Go context library documentation page on 09/26/2020."
+						class="image"
+					/>
+					<div class="description">
+						<p class="disclaimer">
+							It probably should've occurred to me before I wrote this up, but this is also made by
+							Google, but it's almost certainly designed by different teams with different backings and
+							reasons so I'll consider it distant enough to include it.
+						</p>
+						<p>
+							Golang's package discovery page is my current favorite design of. By aggregating published
+							Go packages into one place to discover their unified format for documentation with strong
+							standards it makes using new packages much easier.
+						</p>
+						<p>
+							The page starts off with the core features of the page "Overview" which has text describing
+							the page, "Index" which is the table of contents for the page and "Example" which includes
+							code examples for the . These three things are inarguably the main focus of the site and the
+							first things that any visitor will want to look at. Having the links so prominent helps
+							defeat Hick's law. It then leads a visitor towards more fine grained options that they will
+							need with only a few clicks to also prevent click fatigue.
+						</p>
+						<p>
+							The index later on is also sorted which helps to speed up a search of the contents even when
+							there are quite a lot. Along with seperation of modules, it keeps the finding of a relevant
+							method or type very simple and fast. Finally, additional information for each item is hidden
+							behind expanded areas (which can all be opened at once) to keep the scroll short for
+							visitors that don't want to look for that.
+						</p>
+						<p>
+							All together, the website is well designed to help Hick's law and present the minimal
+							meaningful options to a user which is a relief amongst forks of poorly designed websites or
+							self made documentation that doesn't meet a unified standard like there is in Go. Along with
+							strong design patterns to try to keep the API of a package reasonable, Go has made itself to
+							be my favorite place to go for documentation and to find packages.
+						</p>
+					</div>
+				</section>
+			</div>
+
+			<footer class="block">
+				<p class="footer-text">
+					<span id="copyright">
+						&copy; <span id="copyright-year"><noscript>Unknown</noscript></span>
+					</span>
+					<span class="divider">|</span>
+					<span id="name">David Archibald</span>
+					<span class="divider">|</span>
+					<span id="location">Hillsboro, Oregon</span>
+					<span class="divider">|</span>
+					<span id="learning">
+						<a href="https://byui.edu/">BYUI Online Learning</a>
+					</span>
+				</p>
+				<p id="last-updated">
+					Last Updated: <span id="last-updated-time"><noscript>Unknown</noscript></span>
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>
